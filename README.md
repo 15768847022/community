@@ -7,8 +7,24 @@
 [github deploy key](https://developer.github.con/v3/guides/managing-deploy-keys/#deploy-keys)
 [bootstrap](https://v3.bootcss.com/getting-started/)
 [github OAuth](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)
+[Spring](https://docs.spring.io/spring-boot/docs/2.0.0RC1/reference/htmlsingle/#boot-features-embedded-database-support)
 
 
 ##工具
 [Git](https://git-scm.com/download)
 [visual-paradigm](https://www.visual-paradigm.com)
+
+##脚本
+'''sql
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `account_id` varchar(100) DEFAULT NULL,
+  `name` varchar(50),
+  `token` char(36),
+  `gmt_create` bigint(20),
+  `gmt_modified` bigint(20),
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1
+
+
+'''
