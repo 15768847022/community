@@ -13,6 +13,10 @@
 ##工具
 [Git](https://git-scm.com/download)
 [visual-paradigm](https://www.visual-paradigm.com)
+[flyway](https://www.runoob.com/mysql-insert-query.html)
+[Lambok](https://projectlombok.org/)
+[接口]（https://api.github.com/users/15768847022）
+
 
 ##脚本
 '''sql
@@ -26,5 +30,8 @@ CREATE TABLE `user` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1
 
+'''
 
+'''bash
+mvn flyway:migrate
 '''
