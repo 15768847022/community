@@ -16,6 +16,7 @@
 [flyway](https://www.runoob.com/mysql-insert-query.html)
 [Lambok](https://projectlombok.org/)
 [接口]（https://api.github.com/users/15768847022）
+[Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#setting-attribute-values)
 
 
 ##脚本
